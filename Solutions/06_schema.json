@@ -1,0 +1,64 @@
+{
+    "properties": {
+        "data": {
+            "properties": {
+                "modelName": {
+                    "type": "string"
+                },
+                "modelProperties": {
+                    "properties": {
+                        "azureml.artifactPrefix": {
+                            "type": "string"
+                        },
+                        "flavors": {
+                            "type": "string"
+                        },
+                        "flavors.python_function": {
+                            "type": "string"
+                        },
+                        "flavors.sklearn": {
+                            "type": "string"
+                        },
+                        "mlflow.modelSourceUri": {
+                            "type": "string"
+                        },
+                        "model_json": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "modelTags": {
+                    "properties": {},
+                    "type": "object"
+                },
+                "modelVersion": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "dataVersion": {
+            "type": "string"
+        },
+        "eventTime": {
+            "type": "string"
+        },
+        "eventType": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "metadataVersion": {
+            "type": "string"
+        },
+        "subject": {
+            "type": "string"
+        },
+        "topic": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

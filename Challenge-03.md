@@ -9,13 +9,13 @@
 
 ## Description
 
-Web サービスとしてモデルをデプロイする場合、マネージド オンライン エンドポイント、Kubernetes オンライン エンドポイント にデプロイできます。また、オンプレミスの IoT Edge デバイスおよび Azure Stack Edge デバイスに、モデルを同様にデプロイすることもできます。モデル、スコアリング スクリプト、および関連ファイルからサービスを作成します。これらは、モデルの実行環境を含むベース コンテナー イメージに配置されます。イメージには、Web サービスに送信されるスコアリング要求を受け取る、負荷分散された[エンドポイント](https://docs.microsoft.com/azure/machine-learning/concept-endpoints)があります。
+Web サービスとしてモデルをデプロイする場合、マネージド オンライン エンドポイント、Kubernetes オンライン エンドポイント にデプロイできます。また、オンプレミスの IoT Edge デバイスおよび Azure Stack Edge デバイスに、モデルを同様にデプロイすることもできます。モデル、スコアリング スクリプト、および関連ファイルからサービスを作成します。これらは、モデルの実行環境を含むベース コンテナー イメージに配置されます。イメージには、Web サービスに送信されるスコアリング要求を受け取る、負荷分散された[エンドポイント](https://learn.microsoft.com/azure/machine-learning/concept-endpoints)があります。
 
 次の図は、リアルタイムの推論に使用される**オンライン エンドポイント**を示しています。オンライン エンドポイントには、クライアントからデータを受信する準備が整い、リアルタイムで応答を返信できる**デプロイ**が含まれています。
 
 ![モデルの推論ワークフロー](./images/003.png)
 
-図と[解説](https://docs.microsoft.com/azure/machine-learning/concept-endpoints#online-deployments-requirements)を見ながらオンライン デプロイの要件ついて理解してから、以下のタスクを完了させます。
+図と[解説](https://learn.microsoft.com/azure/machine-learning/concept-endpoints#online-deployments-requirements)を見ながらオンライン デプロイの要件ついて理解してから、以下のタスクを完了させます。
 
 ## Hack
 1. 新しいノートブックを作成します。
@@ -35,11 +35,11 @@ Web サービスとしてモデルをデプロイする場合、マネージド 
 <br>
 
 ## ヒント
- - [オンライン エンドポイントを使用して機械学習モデルをデプロイおよびスコア付けする](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-managed-online-endpoints)
+ - [オンライン エンドポイントを使用して機械学習モデルをデプロイおよびスコア付けする](https://learn.microsoft.com/azure/machine-learning/how-to-deploy-managed-online-endpoints?tabs=azure-cli)
 
 ## 学習リソース
- - [Azure Machine Learning エンドポイントとは](https://docs.microsoft.com/azure/machine-learning/concept-endpoints)
- - [リファレンス: CLI (v2) az ml environment](https://docs.microsoft.com/cli/azure/ml/environment?view=azure-cli-latest)
- - [リファレンス: CLI (v2) az ml online-endpoint](https://docs.microsoft.com/cli/azure/ml/online-endpoint?view=azure-cli-latest)
- - [リファレンス: CLI (v2) az ml online-deployment](https://docs.microsoft.com/cli/azure/ml/online-deployment?view=azure-cli-latest)
+ - [Azure Machine Learning エンドポイントとは](https://learn.microsoft.com/azure/machine-learning/concept-endpoints)
+ - [リファレンス: CLI (v2) az ml environment](https://learn.microsoft.com/cli/azure/ml/environment?view=azure-cli-latest)
+ - [リファレンス: CLI (v2) az ml online-endpoint](https://learn.microsoft.com/cli/azure/ml/online-endpoint?view=azure-cli-latest)
+ - [リファレンス: CLI (v2) az ml online-deployment](https://learn.microsoft.com/cli/azure/ml/online-deployment?view=azure-cli-latest)
  

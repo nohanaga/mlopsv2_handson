@@ -19,7 +19,7 @@ GitHub Actions は、GitHub 内からソフトウェア開発ワークフロー�
 
 **本演習では参加者が利用している CI/CD ツールに合わせて複数の技術の中から選択して実装することができます。**
 
-MLOps オーケストレーションを実現するための[複数のテクノロジーの違い](https://docs.microsoft.com/azure/architecture/example-scenario/mlops/aml-decision-tree#overall-orchestration-and-scheduling)を理解し、チームで取り組むテクノロジーを選択してください。下記のいずれかを満たす必要があります。
+MLOps オーケストレーションを実現するための[複数のテクノロジーの違い](https://learn.microsoft.com/azure/architecture/example-scenario/mlops/aml-decision-tree)を理解し、チームで取り組むテクノロジーを選択してください。下記のいずれかを満たす必要があります。
 
 1. Github Actions の Workflow を使ってパイプラインを実装しコードコミット駆動を使用します。
 1. Azure DevOps の Azure Pipelines を使ってパイプラインを実装しコードコミット駆動を使用します。
@@ -46,10 +46,10 @@ Azure Pipelines を使えば今回作成した機械学習パイプラインと�
 <br>
 
 ## ヒント
- - [モデルトレーニングに GitHub Actions を使用する](https://docs.microsoft.com/learn/modules/trigger-azure-machine-learn-jobs-github-actions/4-use-for-model-training)
+ - [モデルトレーニングに GitHub Actions を使用する](https://learn.microsoft.com/training/modules/trigger-azure-machine-learn-jobs-github-actions/4-use-for-model-training)
 
 ## 学習リソース
- - [GitHub Actions で開発タスクを自動化する方法](https://docs.microsoft.com/learn/modules/github-actions-automate-tasks/2-github-actions-automate-development-tasks)
+ - [GitHub Actions で開発タスクを自動化する方法](https://learn.microsoft.com/training/modules/github-actions-automate-tasks/2-github-actions-automate-development-tasks)
  - [Github Actions: ワークフローについて](https://docs.github.com/actions/using-workflows/about-workflows)
  - [Github Actions: ワークフローをトリガーするイベント](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows)
- - [トランクベースの開発で GitHub Actions をトリガーする](https://docs.microsoft.com/learn/modules/trigger-github-actions-trunk-based-development/)
+ - [トランクベースの開発で GitHub Actions をトリガーする](https://learn.microsoft.com/training/modules/trigger-github-actions-trunk-based-development/)

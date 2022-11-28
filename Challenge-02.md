@@ -38,12 +38,12 @@
 <br>
 
 ## ヒント
-- トレーニング スクリプトにはコマンドライン引数を渡すことができます。指定方法は[こちら](https://docs.microsoft.com/azure/machine-learning/reference-yaml-core-syntax#parameterizing-the-command-with-the-inputs-and-outputs-contexts-of-a-job)を参照。
- - [CLI (v2) を使用した Azure Machine Learning 環境の管理](https://docs.microsoft.com/azure/machine-learning/how-to-manage-environments-v2)
- - [CLI (v2) を使用してモデルをトレーニングする](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#train-a-model-with-a-custom-script)
- - [CLI (v2) を使用してコンピューティングクラスターを作成する](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#create-compute)
+- トレーニング スクリプトにはコマンドライン引数を渡すことができます。指定方法は[こちら](https://learn.microsoft.com/azure/machine-learning/reference-yaml-core-syntax#parameterizing-the-command-with-the-inputs-and-outputs-contexts-of-a-job)を参照。
+ - [CLI (v2) を使用した Azure Machine Learning 環境の管理](https://learn.microsoft.com/azure/machine-learning/how-to-manage-environments-v2?tabs=cli)
+ - [CLI (v2) を使用してモデルをトレーニングする](https://learn.microsoft.com/azure/machine-learning/how-to-train-model?tabs=azurecli#train-a-model-with-a-custom-script)
+ - [CLI (v2) を使用してコンピューティングクラスターを作成する](https://learn.microsoft.com/azure/machine-learning/how-to-train-model?tabs=azurecli#2-create-a-compute-resource-for-training)
 
 ## 学習リソース
- - [Azure Machine Learning 環境とは?](https://docs.microsoft.com/azure/machine-learning/concept-environments)
- - [リファレンス: CLI (v2)](https://docs.microsoft.com/cli/azure/ml?view=azure-cli-latest)
- - [リファレンス: CLI (v2) YAML スキーマ](https://docs.microsoft.com/azure/machine-learning/reference-yaml-overview)
+ - [Azure Machine Learning 環境とは?](https://learn.microsoft.com/azure/machine-learning/concept-environments)
+ - [リファレンス: CLI (v2)](https://learn.microsoft.com/cli/azure/ml?view=azure-cli-latest)
+ - [リファレンス: CLI (v2) YAML スキーマ](https://learn.microsoft.com/azure/machine-learning/reference-yaml-overview)

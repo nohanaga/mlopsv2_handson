@@ -28,4 +28,4 @@
  - [機械学習パイプライン ジョブをスケジュールする](https://learn.microsoft.com/azure/machine-learning/how-to-schedule-pipeline-job?tabs=cliv2)
  
 ## 学習リソース
- - [最適なツール選択のための Azure Machine Learning 意思決定ガイド](https://docs.microsoft.com/azure/architecture/example-scenario/mlops/aml-decision-tree)
+ - [最適なツール選択のための Azure Machine Learning 意思決定ガイド](https://learn.microsoft.com/azure/architecture/example-scenario/mlops/aml-decision-tree)

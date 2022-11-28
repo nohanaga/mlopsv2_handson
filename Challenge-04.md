@@ -12,7 +12,7 @@
 
 ![aml-pipelines-concept](./images/004.png)
 
-機械学習の各フェーズをパイプライン化することのメリットを[解説](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#key-advantages)を参照しながらチームで議論します。
+機械学習の各フェーズをパイプライン化することのメリットを[解説](https://learn.microsoft.com/azure/machine-learning/concept-ml-pipelines)を参照しながらチームで議論します。
 
 Azure Machine Learning のパイプラインの複数のステップを組み合わせて構成して、共有可能で再利用可能な Azure Machine Learning ワークフローであるパイプラインを構築できます。 パイプラインの各ステップは、ステップの内容 (スクリプトと依存関係) に加えて入力とパラメーターが変更されていない場合に、以前の実行結果を再利用できるように構成することができます。
 
@@ -35,13 +35,12 @@ Azure Machine Learning のパイプラインの複数のステップを組み合
 <br>
 
 ## ヒント
- - [機械学習パイプライン HelloWorld](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#hello-pipelines)
- - [CLI (v2) パイプライン ジョブ サンプル集](https://docs.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline#examples)
+ - [CLI (v2) パイプライン ジョブ サンプル集](https://learn.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline#examples)
 
 ## 学習リソース
- - [Azure Machine Learning パイプラインとは](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines)
- - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](https://docs.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
- - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://docs.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
+ - [Azure Machine Learning パイプラインとは](https://learn.microsoft.com/azure/machine-learning/concept-ml-pipelines)
+ - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](https://learn.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
+ - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://learn.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
  
 
 

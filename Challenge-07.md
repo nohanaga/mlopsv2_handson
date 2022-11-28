@@ -40,17 +40,17 @@
 - 再トレーニングしたモデル（必要に応じてパフォーマンスを向上させたもの）を作成し、モデルレジストリに登録するかの判断を行うこと。
 
 ## 学習リソース
- - [Azure Machine Learning パイプラインとは](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines)
- - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](https://docs.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
- - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://docs.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
-- [MLOps リファレンス・アーキテクチャ](<https://docs.microsoft.com/azure/architecture/reference-architectures/ai/mlops-python>)
+ - [Azure Machine Learning パイプラインとは](https://learn.microsoft.com/azure/machine-learning/concept-ml-pipelines)
+ - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](hhttps://learn.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
+ - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://learn.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
+- [MLOps リファレンス・アーキテクチャ](https://learn.microsoft.com/azure/architecture/reference-architectures/ai/mlops-python)
 
 ## さらなる学習
 Azure Machine Learning には、トレーニングに用いるデータの変化であるデータ ドリフトを監視する機能が搭載されています。これにより、増え続ける新しいデータのコレクションを元のトレーニング データと定期的に比較し、モデルの精度に影響する可能性のあるデータの傾向の変化を特定することができます。
 
 データ ドリフトに関するアラートを設定して、市場の変化によってデータセットのプロファイルが大きく変わった場合にアラートを送信するように設定してください。
 
-- [データセットでデータ ドリフトを検出する](https://docs.microsoft.com/azure/machine-learning/how-to-monitor-datasets)
+- [データセットでデータ ドリフトを検出する](https://learn.microsoft.com/azure/machine-learning/v1/how-to-monitor-datasets)
 ## おめでとうございます
 
 この Hack のチャレンジは終了しました。コンテンツは継続的に更新しています。今後のフェーズでは、AKS Data Drift に加え、ONNX や mlflow など他の ML プラットフォームも取り込んで、このソリューションを拡張していく予定です。ご期待ください。

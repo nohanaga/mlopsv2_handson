@@ -4,7 +4,7 @@
 
 ## Introduction
 
-この課題の目的は、回帰を使って患者の糖尿病進行度を予測することです。この課題の全体の流れとして、[Diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html) データベースからのヘルスケアデータの処理、分析、回帰モデルの作成と登録、そして最後に マネージド オンライン エンドポイントへのモデルのデプロイが含まれます。このライフサイクル全体は、[Azure Machine Learning CLI v2](https://docs.microsoft.com/azure/machine-learning/concept-v2) を使用して行われます。
+この課題の目的は、回帰を使って患者の糖尿病進行度を予測することです。この課題の全体の流れとして、[Diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html) データベースからのヘルスケアデータの処理、分析、回帰モデルの作成と登録、そして最後に マネージド オンライン エンドポイントへのモデルのデプロイが含まれます。このライフサイクル全体は、[Azure Machine Learning CLI v2](https://learn.microsoft.com/azure/machine-learning/concept-v2) を使用して行われます。
 
 今回は、事前にデータエンジニアによってデータウェアハウス内に蓄積されたデータを利用する想定とします。
 
@@ -23,5 +23,5 @@
 
 
 ## 学習リソース
- - [ワークスペースで Jupyter Notebook を実行する](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
- - [便利なキーボード ショートカット](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks#useful-keyboard-shortcuts)
+ - [ワークスペースで Jupyter Notebook を実行する](https://learn.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
+ - [便利なキーボード ショートカット](https://learn.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks#useful-keyboard-shortcuts)

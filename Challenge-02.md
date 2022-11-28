@@ -10,7 +10,7 @@
 この課題の目的は、ローカルで開発していたトレーニングをクラウドにスケールする際の方法論を理解することです。
 
 ## Description
-クラウド上でモデルをトレーニングするための一般的な方法は、[環境](https://docs.microsoft.com/azure/machine-learning/concept-environments)、[コンピューティング ターゲット](https://docs.microsoft.com/azure/machine-learning/concept-compute-target)、[トレーニング Python スクリプト](https://docs.microsoft.com/azure/machine-learning/how-to-train-cli#train-a-model-with-a-custom-script)をそれぞれ作成し、実行構成 YAML としてパッケージ化します。その後、実行構成をクラウドに送信してトレーニングジョブを起動します。[Challenge 1](./Challenge-01.md) では 1 つの Notebook 上ですべてが完結しましたが、今回はなぜこうする必要があるのでしょうか。得られるメリットについてチームで議論します。
+クラウド上でモデルをトレーニングするための一般的な方法は、[環境](https://learn.microsoft.com/ja-jp/azure/machine-learning/concept-environments)、[コンピューティング ターゲット](https://learn.microsoft.com/ja-jp/azure/machine-learning/concept-compute-target)、[トレーニング Python スクリプト](https://learn.microsoft.com/ja-jp/azure/machine-learning/how-to-train-model?tabs=azurecli#4-submit-the-training-job)をそれぞれ作成し、実行構成 YAML としてパッケージ化します。その後、実行構成をクラウドに送信してトレーニングジョブを起動します。[Challenge 1](./Challenge-01.md) では 1 つの Notebook 上ですべてが完結しましたが、今回はなぜこうする必要があるのでしょうか。得られるメリットについてチームで議論します。
 
 機械学習モデルの作成は、ローカル コンピューター上で開始し、後でクラウドベースのクラスターにスケールアウトするのが一般的です。Azure Machine Learning では、トレーニング スクリプトを変更しなくても、さまざまなコンピューティング先でトレーニング スクリプトを実行できます。
 
@@ -38,7 +38,7 @@
 <br>
 
 ## ヒント
-- トレーニング スクリプトにはコマンドライン引数を渡すことができます。指定方法は[こちら](https://learn.microsoft.com/azure/machine-learning/reference-yaml-core-syntax#parameterizing-the-command-with-the-inputs-and-outputs-contexts-of-a-job)を参照。
+- トレーニング スクリプトにはコマンドライン引数を渡すことができます。指定方法は[こちら](https://learn.microsoft.com/ja-jp/azure/machine-learning/reference-yaml-core-syntax#parameterizing-the-command-with-the-inputs-and-outputs-contexts-of-a-job)を参照。
  - [CLI (v2) を使用した Azure Machine Learning 環境の管理](https://learn.microsoft.com/azure/machine-learning/how-to-manage-environments-v2?tabs=cli)
  - [CLI (v2) を使用してモデルをトレーニングする](https://learn.microsoft.com/azure/machine-learning/how-to-train-model?tabs=azurecli#train-a-model-with-a-custom-script)
  - [CLI (v2) を使用してコンピューティングクラスターを作成する](https://learn.microsoft.com/azure/machine-learning/how-to-train-model?tabs=azurecli#2-create-a-compute-resource-for-training)

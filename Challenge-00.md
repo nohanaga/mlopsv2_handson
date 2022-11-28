@@ -16,11 +16,11 @@
 
 DevOps と同様、MLOps は非常に幅広いトピックであり、使用するツールに関しても多くの選択肢があります。このチャレンジでは、コンピュータに適切なツールがインストールされていることを確認することに焦点を当てます。
 
-本チャレンジでは、[Azure Machine Learning スタジオ](https://docs.microsoft.com/azure/machine-learning/overview-what-is-machine-learning-studio)と呼ばれるクラウドプラットフォーム上で開発を行います。
+本チャレンジでは、[Azure Machine Learning スタジオ](https://learn.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning#studio)と呼ばれるクラウドプラットフォーム上で開発を行います。
 
 ![Azure Machine Learning Workspace](./images/001.png)
 
-Azure Machine Learning ワークスペースと各アセットとリソースについて[解説](https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-v2?tabs=cli)を見ながら関係を理解します。
+Azure Machine Learning ワークスペースと各アセットとリソースについて[解説](https://learn.microsoft.com/azure/machine-learning/concept-azure-machine-learning-v2?tabs=cli)を見ながら関係を理解します。
 
 ## 前提条件
 - Azure のサブスクリプションを取得していること。お持ちでない場合は、[無料トライアル](https://azure.microsoft.com/free/)にお申し込みください。以下の Azure リソースを作成できることを確認します。以下のリソースは Azure Machine Learning リソースを作成すると自動的に作成されるため、基本的にユーザーが直接操作する必要はありません。
@@ -41,8 +41,8 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、Azure Machine Learning CLI v2 から作成してもかまいません。
 1. [Azure Machine Learning ワークスペース](https://portal.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
 1. **コンピューティング インスタンス**の作成（汎用 Standard_D2_v2 推奨）
-1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/OpenHackforMLOpsv2_Coach.git` **(仮)** をワークスペースにクローンします。
-1. ノートブックのマイ ファイル ウィンドウで ↻ をクリックしてビューを更新し、新しい /Users/\<your-user-name\>/OpenHackforMLOpsv2_Coach **(仮)** フォルダーが作成されていることを確認します。
+1. Azure Machine Learning スタジオのホームから **Notebooks** の「今すぐ開始」をクリックし、コーチが提供する Git リポジトリ `https://github.com/nohanaga/mlopsv2.git` をワークスペースにクローンします。
+1. ノートブックのマイ ファイル ウィンドウで ↻ をクリックしてビューを更新し、新しい /Users/\<your-user-name\>/mlopsv2 フォルダーが作成されていることを確認します。
 1. Notebooks フォルダ内の `exercise00_1_login_azure.ipynb` を開き、作成した**コンピューティング インスタンス**を割り当て、カーネルを「Python 3.8 - AzureML」にセットしセルを上から実行して CLI コマンドで Azure にログインできることを確認し、Azure ML CLI v2 をインストールします。
 
     **注意:** ノートブック上部に *"いずれかの Azure SDK を使用するには、コンピューティングに対して認証される必要があります。認証されるには、認証ボタンを使用してください。"* と表示された場合は認証ボタンを押してアカウントの認証を行います。
@@ -63,14 +63,14 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 <br>
 
 ## ヒント
-- [Azure Machine Learning の利用を開始するために必要なワークスペース リソースを作成する](https://docs.microsoft.com/azure/machine-learning/quickstart-create-resources)
-- [ワークスペースで Jupyter Notebook を実行する](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
+- [Azure Machine Learning の利用を開始するために必要なワークスペース リソースを作成する](https://learn.microsoft.com/azure/machine-learning/quickstart-create-resources)
+- [ワークスペースで Jupyter Notebook を実行する](https://learn.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
  - [Azure Machine Learning ワークスペースを作成して探索する](https://microsoftlearning.github.io/DP-100JA-Designing-and-Implementing-a-Data-Science-Solution-on-Azure/Instructions/01-create-a-workspace.html)
-- [データ資産を作成する](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-data-assets?tabs=CLI)
+- [データ資産を作成する](https://learn.microsoft.com/azure/machine-learning/how-to-create-data-assets?tabs=CLI)
 
 ## 学習リソース
-- [Azure Machine Learning のしくみ: リソースとアセット (v2)](https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-v2?tabs=cli)
-- [Azure Machine Learning ワークスペースとは](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-- [Azure Machine Learning コンピューティング インスタンスとは](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance)
-- [Azure Machine Learning CLI と Python SDK v2 の概要](https://docs.microsoft.com/azure/machine-learning/concept-v2)
+- [Azure Machine Learning のしくみ: リソースとアセット (v2)](https://learn.microsoft.com/azure/machine-learning/concept-azure-machine-learning-v2?tabs=cli)
+- [Azure Machine Learning ワークスペースとは](https://learn.microsoft.com/azure/machine-learning/concept-workspace)
+- [Azure Machine Learning コンピューティング インスタンスとは](https://learn.microsoft.com/azure/machine-learning/concept-compute-instance)
+- [Azure Machine Learning CLI と Python SDK v2 の概要](https://learn.microsoft.com/azure/machine-learning/concept-v2)
 

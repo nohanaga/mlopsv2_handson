@@ -41,6 +41,11 @@
 
 <br>
 
+## Azure DevOps を使用する場合
+GitHub が組織の規則などで使用できない場合、Azure DevOps で代替することができます。ここでは、Azure Pipelines の [YAML パイプライン](https://learn.microsoft.com/azure/devops/pipelines/get-started/pipelines-get-started?view=azure-devops)を使用します。<br>
+1. **Azure DevOps による設定の全手順解説は[こちら](./Solutions/Solution-Challenge-06-3.md)を参照してください。**
+1. **Logic Apps による設定の全手順解説は[こちら](./Solutions/Solution-Challenge-06-4.md)を参照してください。**
+
 ## ヒント
  - [サービス プリンシパル シークレットで Azure ログイン アクションを使用する](https://learn.microsoft.com/azure/developer/github/connect-from-azure?tabs=azure-portal%2Clinux#use-the-azure-login-action-with-a-service-principal-secret)
  - [Github Actions: リポジトリ ディスパッチ イベントを作成する](https://docs.github.com/ja/rest/repos/repos#create-a-repository-dispatch-event)

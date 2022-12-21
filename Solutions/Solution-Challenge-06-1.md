@@ -100,22 +100,8 @@ jobs:
           creds: '${{secrets.AZURE_CREDENTIALS}}'
       - name: Install ML extension for az command
         run: az extension add --name ml --version 2.10.0
-      - name: Make Managed Deployment YAML
-        run: |
-          cat << EOS > 03_managed_deployment.yml
-          \$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
-          name: blue
-          endpoint_name: endpoint1
-          model: azureml:${{github.event.client_payload.model_name}}:${{github.event.client_payload.model_version}}
-          code_configuration:
-            code: ./scripts
-            scoring_script: score.py
-          environment: 
-            conda_file: ./environments/03_conda_env.yml
-            image: mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04
-          instance_type: Standard_DS2_v2
-          instance_count: 1
-          EOS
+      - name: Replace modelName and modelVersion in YAML
+        run: yq -i '.model = "azureml:${{github.event.client_payload.model_name}}:${{github.event.client_payload.model_version}}"' 03_managed_deployment.yml
       - name: Trigger AML Pipeline Job
         run: az ml online-deployment update -f 03_managed_deployment.yml -g ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} -w ${{ secrets.AZURE_ML_WORKSPACE_NAME }}
 ```

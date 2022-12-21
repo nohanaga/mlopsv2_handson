@@ -55,3 +55,9 @@ Azure Pipelines を使えば今回作成した機械学習パイプラインと�
  - [Github Actions: ワークフローについて](https://docs.github.com/actions/using-workflows/about-workflows)
  - [Github Actions: ワークフローをトリガーするイベント](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows)
  - [トランクベースの開発で GitHub Actions をトリガーする](https://learn.microsoft.com/training/modules/trigger-github-actions-trunk-based-development/)
+
+ ## さらなる学習
+ - デプロイパイプラインに承認ゲートを追加して、人間によるモデルの性能確認とその後の手動承認によってパイプラインの実行を制御します。
+
+    1. GitHub Actions のワークフローに[ジョブ承認](https://docs.github.com/actions/managing-workflow-runs/reviewing-deployments)を導入します。
+    1. Azure DevOps のパイプラインに[手動検証](https://learn.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops#set-up-manual-validation)タスクを導入します。

@@ -36,6 +36,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - CI/CD ツールとして、**Github Actions** をメインで使用します。事前に **Github アカウントをご用意ください**。
 - 提供された無償の Azure Pass がある場合は、そのまま [Azure Portal](https://portal.azure.com/) にログインできます。認証時の多要素認証は本 Hack ではスキップできます。
 - 本コンテンツは **Azure ML CLI v2** 向けに作成されています。
+- **OpenHack 運営事務局向け事前確認手順解説は[こちら](./Solutions/Solution-Challenge-00-1.md)**
 
 ## Hack
 以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、Azure Machine Learning CLI v2 から作成してもかまいません。

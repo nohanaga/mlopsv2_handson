@@ -41,7 +41,7 @@
 
 ## 学習リソース
  - [Azure Machine Learning パイプラインとは](https://learn.microsoft.com/azure/machine-learning/concept-ml-pipelines)
- - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](hhttps://learn.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
+ - [Azure Machine Learning CLI でコンポーネントを使用して機械学習パイプラインを作成して実行する](https://learn.microsoft.com/azure/machine-learning/how-to-create-component-pipelines-cli)
  - [リファレンス: CLI (v2) パイプライン ジョブの YAML スキーマ](https://learn.microsoft.com/azure/machine-learning/reference-yaml-job-pipeline)
 - [MLOps リファレンス・アーキテクチャ](https://learn.microsoft.com/azure/architecture/reference-architectures/ai/mlops-python)
 
